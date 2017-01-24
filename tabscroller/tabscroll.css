@@ -1,0 +1,35 @@
+.tabheaderscontainer
+{
+    overflow: hidden;
+        }
+.tabheaderscontainer ul.yui-nav 
+{
+    width: 10000px;
+    position: relative;
+}
+.scrollcontainer .prev, .scrollcontainer .next, .scrollcontainer .menu
+{
+    z-index: 2;
+    display: inline-block;
+    margin-top: 0px;
+}
+.scrollcontainer .prev
+{
+    float: left;
+}
+.scrollcontainer .next
+{
+    float: right;
+}
+.scrollcontainer .menu
+{
+    float: right;
+}
+.scrollcontainer.hidden
+{
+    border-width: 0px 0px;
+}
+.scrollcontainer.hidden .prev, .scrollcontainer.hidden .next
+{
+    display: none;
+}
